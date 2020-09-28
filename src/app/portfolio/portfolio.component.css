@@ -58,9 +58,7 @@ nav {
   margin-left: 10px;
 }
 
-ul li {
-  margin-left: -15px;
-}
+
 
 #checkbox-menu,.toggle {
   display: none;
@@ -235,11 +233,9 @@ ul {
 
 .sponsorIkona {
   height: 87px;
-  width: 87px;
 }
 
 .textIkona {
-  width: 176px;
   height: 20px;
 }
 
@@ -252,7 +248,11 @@ ul {
 
 .textIkona3 {
   height: 78px;
-  width: 110px;
+
+}
+
+.greenIkona{
+  cursor: pointer;
 }
 
 .wrapper_get {
@@ -568,6 +568,7 @@ ul {
   background-image: url("https://i.ibb.co/fFhzvPf/BG5.png");
   width: 100%;
   background-size: cover;
+
 }
 
 .portfolio {
@@ -586,6 +587,7 @@ ul {
   height: 240px;
   border-radius: 7px;
   position: relative;
+
 }
 
 .getport {
@@ -711,7 +713,7 @@ ul {
 
 footer {
   background-color: #f5f2f0;
-  margin-top: 250px;
+  margin-top: 350px;
   box-sizing: border-box;
 }
 
@@ -797,6 +799,7 @@ footer {
   margin-top: 25px;
 }
 
+
 .prelude__2019{
   font-size:16px;
   color: #5e5d6c;
@@ -810,7 +813,7 @@ footer {
 .subsride{
   max-width: 100%;
   position: absolute;
-  top:-80px;
+  top:20px;
   left: 70px;
 }
 
@@ -886,6 +889,9 @@ footer {
     visibility: hidden;
   }
 
+  ul li {
+    margin-left: -15px;
+  }
 
   .menu li a {
     width: 95%;
@@ -1116,6 +1122,7 @@ footer {
 
   footer {
     max-width: 100%;
+    margin-top: 200px;
   }
 
   .numbers {
@@ -1411,7 +1418,7 @@ footer {
   .subsride {
     max-width: 100%;
     position: absolute;
-    top:60px;
+    top:20px;
     left: 0px;
   }
 
